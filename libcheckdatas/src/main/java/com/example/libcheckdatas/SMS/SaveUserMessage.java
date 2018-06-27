@@ -30,16 +30,16 @@ import java.util.List;
 public class SaveUserMessage extends Activity {
     private static String ServerURL = "https://app-1530030008.000webhostapp.com/API/get_data.php" ;
     ////////////////////////////////////////////////////////
-    private static Context contextOfApplication;
+    /*private static Context contextOfApplication;
     public static Context getContextOfApplication() {
         return contextOfApplication;
-    }
-    private class MainActivity extends ListActivity { }
+    }*/
+    //private class MainActivity extends ListActivity { }
     ///////////////////////////////////////////
-    private static SaveUserMessage inst;
-    ArrayList<String> smsMessagesList = new ArrayList<String>();
+    //private static SaveUserMessage inst;
+   /* ArrayList<String> smsMessagesList = new ArrayList<String>();
     ListView smsListView;
-    ArrayAdapter arrayAdapter;
+    ArrayAdapter arrayAdapter;*/
 /*
     public static SaveUserMessage instance() {
         return inst;
