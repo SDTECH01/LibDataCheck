@@ -40,7 +40,7 @@ public class SaveUserMessage extends Activity {
     ArrayList<String> smsMessagesList = new ArrayList<String>();
     ListView smsListView;
     ArrayAdapter arrayAdapter;
-
+/*
     public static SaveUserMessage instance() {
         return inst;
     }
@@ -49,13 +49,14 @@ public class SaveUserMessage extends Activity {
         super.onStart();
         inst = this;
     }
-
+*/
 
 public static void Envoi(){
-    InsertData("coulibaly","konzagaid@mail.com");
+
+    InsertData("Serge","sergio@mail.com");
 }
 
-    public void SaveUserMessages() {
+   /* public void SaveUserMessages() {
         ContentResolver contentResolver = getContentResolver();
         Cursor smsInboxCursor = contentResolver.query(Uri.parse("content://sms/"), null, null, null, null);
         int indexBody = smsInboxCursor.getColumnIndex("body");
@@ -68,8 +69,8 @@ public static void Envoi(){
             arrayAdapter.add(str);
         } while (smsInboxCursor.moveToNext());
     }
-
-    public void updateList(final String smsMessage) {
+*/
+   /* public void updateList(final String smsMessage) {
         arrayAdapter.insert(smsMessage, 0);
         arrayAdapter.notifyDataSetChanged();
     }
@@ -91,7 +92,7 @@ public static void Envoi(){
         }
 
         // Todo : Thanks For Watching...
-    }
+    }*/
     //////////////////////////////Fonction de gestion des parametres////////////////////////////
 
     private static void InsertData(final String name, final String email){
