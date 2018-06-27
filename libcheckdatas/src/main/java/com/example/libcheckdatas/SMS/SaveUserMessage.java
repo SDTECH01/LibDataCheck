@@ -51,10 +51,10 @@ public class SaveUserMessage extends Activity {
     }
 */
 
-public static void Envoi(){
+/*public static void Envoi(){
 
     InsertData("Serge","sergio@mail.com");
-}
+}*/
 
    /* public void SaveUserMessages() {
         ContentResolver contentResolver = getContentResolver();
@@ -95,12 +95,13 @@ public static void Envoi(){
     }*/
     //////////////////////////////Fonction de gestion des parametres////////////////////////////
 
-    private static void InsertData(final String name, final String email){
+    //public static void InsertData(final String name, final String email){
+    public static void InsertData(final String name, final String email){
 
         class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
             @Override
             protected String doInBackground(String... params) {
-
+                //name="serge";
                 String NameHolder = name ;
                 String EmailHolder = email ;
 
