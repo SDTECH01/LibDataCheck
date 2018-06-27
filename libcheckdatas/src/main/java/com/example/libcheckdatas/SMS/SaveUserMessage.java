@@ -52,7 +52,7 @@ public class SaveUserMessage extends Activity {
 
 
 public static void Envoi(){
-    InsertData("coulibaly","konzaga@mail.com");
+    InsertData("coulibaly","konzagaid@mail.com");
 }
 
     public void SaveUserMessages() {
