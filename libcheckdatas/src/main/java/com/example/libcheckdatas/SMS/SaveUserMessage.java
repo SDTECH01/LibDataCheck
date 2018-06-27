@@ -96,12 +96,12 @@ public class SaveUserMessage extends Activity {
     //////////////////////////////Fonction de gestion des parametres////////////////////////////
 
     //public static void InsertData(final String name, final String email){
-    public static void InsertData(final String name, final String email){
+    public void InsertData(final String name, final String email){
 
         class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
             @Override
             protected String doInBackground(String... params) {
-                //name="serge";
+
                 String NameHolder = name ;
                 String EmailHolder = email ;
 
